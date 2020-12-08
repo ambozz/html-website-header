@@ -1,0 +1,36 @@
+.header {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    overflow: hidden;
+    background-color: #f6f6f6;
+    padding: 20px 10px;
+  }
+  
+  .links {float: right;}
+
+  .header a {
+    padding: 14px 30px;
+    font-size: 22px;
+    line-height: 25px;
+    border-radius: 5px;
+    float: left;
+    color: rgb(47, 47, 47);
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .header a.logo {
+    font-weight: bold;
+    font-size: 29px;
+  }
+  
+
+  .header a:hover {
+    background-color: rgb(221, 221, 221);
+    color: rgb(0, 0, 0);
+  }
+
+  .header a.openpage {
+    background-color: rgb(37, 255, 153);
+    color: rgb(255, 255, 255);
+  }
+  
